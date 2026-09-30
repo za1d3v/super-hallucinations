@@ -1,4 +1,10 @@
+<div align="center">
+   
 # super-hallucinations
+
+</div>
+
+## What is this?
 I conducted an experimental comparison of four RAG configurations to investigate whether retrieval actually reduces hallucination. I evaluated answer correctness, groundedness, citation accuracy, retrieval quality, and abstention behavior, including adversarial cases.
 
 Design the experiment and create the 50–100 question dataset.
@@ -29,7 +35,7 @@ Does explicit abstention reduce unsupported answers?
 How does retrieval quality affect hallucination?
 Can adversarial questions cause a RAG system to produce unsupported information?
 
-Experimental Design
+## Experimental Design
 
 The experiment uses a small synthetic knowledge base containing factual information about a fictional company called Acme Corporation.
 
@@ -70,7 +76,7 @@ Configuration D — RAG + Abstention
 
 The model must refuse to answer when the retrieved evidence does not contain enough information.
 
-Metrics
+## Metrics
 
 The experiment records:
 
@@ -98,7 +104,7 @@ The percentage of responses containing unsupported information.
 
 The purpose of the experiment is to determine whether RAG improves factual reliability under different conditions.
 
-Running the Experiment
+## Running the Experiment
 
 Install dependencies:
 
@@ -121,7 +127,8 @@ python rag_experiment.py
 Results will be written to:
 
 results/results.csv
-Experimental Hypothesis
+
+## Experimental Hypothesis
 
 The initial hypothesis is:
 
@@ -129,9 +136,9 @@ RAG should reduce hallucination when relevant information exists in the knowledg
 
 The experiment is designed to test this hypothesis rather than assume it is correct.
 
-Future Work
+## Future Work
 
-Potential extensions include:
+## Potential extensions include:
 
 Vector databases
 Semantic embeddings
@@ -149,6 +156,6 @@ NDCG
 Production monitoring
 Security-specific RAG benchmarks
 
-Author
+<div align="center">
 
 Independent experimental research into LLM reliability, RAG security, and AI safety.
