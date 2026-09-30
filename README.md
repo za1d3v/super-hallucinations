@@ -4,7 +4,7 @@
 
 </div>
 
-## What is this?
+## what is this?
 I conducted an experimental comparison of four RAG configurations to investigate whether retrieval actually reduces hallucination. I evaluated answer correctness, groundedness, citation accuracy, retrieval quality, and abstention behavior, including adversarial cases.
 
 Design the experiment and create the 50–100 question dataset.
@@ -22,9 +22,13 @@ This project investigates whether Retrieval-Augmented Generation (RAG) actually 
 Rather than assuming that RAG eliminates hallucinations, this experiment compares four different approaches:
 
 LLM Only
+
 Basic RAG
+
 RAG + Citations
+
 RAG + Abstention
+
 
 The experiment evaluates answer correctness, groundedness, citation behavior, and the ability of the system to abstain when sufficient information is unavailable.
 
@@ -35,7 +39,7 @@ Does explicit abstention reduce unsupported answers?
 How does retrieval quality affect hallucination?
 Can adversarial questions cause a RAG system to produce unsupported information?
 
-## Experimental Design
+## experimental design
 
 The experiment uses a small synthetic knowledge base containing factual information about a fictional company called Acme Corporation.
 
@@ -76,7 +80,7 @@ Configuration D — RAG + Abstention
 
 The model must refuse to answer when the retrieved evidence does not contain enough information.
 
-## Metrics
+## metrics
 
 The experiment records:
 
@@ -104,7 +108,7 @@ The percentage of responses containing unsupported information.
 
 The purpose of the experiment is to determine whether RAG improves factual reliability under different conditions.
 
-## Running the Experiment
+## running the experiment
 
 Install dependencies:
 
@@ -128,7 +132,7 @@ Results will be written to:
 
 results/results.csv
 
-## Experimental Hypothesis
+## experimental hypothesis
 
 The initial hypothesis is:
 
@@ -136,9 +140,9 @@ RAG should reduce hallucination when relevant information exists in the knowledg
 
 The experiment is designed to test this hypothesis rather than assume it is correct.
 
-## Future Work
+## future work
 
-## Potential extensions include:
+## potential extensions include:
 
 Vector databases
 Semantic embeddings
