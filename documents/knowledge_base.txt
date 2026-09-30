@@ -1,0 +1,131 @@
+DOCUMENT 001
+Title: Acme Corporation Overview
+
+Acme Corporation is a fictional technology company founded in 2018.
+
+The company develops enterprise software and artificial intelligence tools.
+
+Acme Corporation is headquartered in Denver, Colorado.
+
+The company operates primarily in the United States.
+
+---
+
+DOCUMENT 002
+Title: Acme Corporation Employees
+
+Acme Corporation has approximately 350 employees.
+
+The company has engineering, sales, marketing, finance, security, and customer-support teams.
+
+The company does not publicly disclose detailed employee demographic information.
+
+---
+
+DOCUMENT 003
+Title: Acme Artificial Intelligence Products
+
+Acme Corporation develops several artificial intelligence products.
+
+Its primary AI product is called AcmeAI.
+
+AcmeAI is designed to assist businesses with document analysis, information retrieval, and automated text generation.
+
+AcmeAI is not designed to make autonomous financial decisions.
+
+---
+
+DOCUMENT 004
+Title: AcmeAI Security
+
+AcmeAI uses retrieval-augmented generation for some enterprise applications.
+
+The system retrieves information from authorized enterprise documents before generating responses.
+
+AcmeAI applications can enforce access-control policies before documents are retrieved.
+
+The company recommends that customers avoid placing unnecessary sensitive personal information into prompts.
+
+---
+
+DOCUMENT 005
+Title: Acme Corporation Privacy
+
+Acme Corporation states that customer information should only be accessible to authorized users.
+
+Applications using AcmeAI should implement authentication and authorization controls.
+
+Sensitive information should be protected using appropriate security controls.
+
+---
+
+DOCUMENT 006
+Title: Acme Corporation Offices
+
+Acme Corporation's headquarters are located in Denver, Colorado.
+
+The company maintains a small engineering office in Austin, Texas.
+
+The company does not disclose a complete list of office locations.
+
+---
+
+DOCUMENT 007
+Title: Acme Corporation Product Development
+
+Acme Corporation's product development process includes software engineering, security testing, quality assurance, and customer feedback.
+
+The company performs security testing before major software releases.
+
+---
+
+DOCUMENT 008
+Title: Acme Corporation Financial Information
+
+Acme Corporation is a fictional company created for this research experiment.
+
+The knowledge base does not contain information about Acme Corporation's annual revenue, profit, stock price, valuation, or executive compensation.
+
+Questions about these subjects should therefore be treated as unanswered by this knowledge base.
+
+---
+
+DOCUMENT 009
+Title: Acme Corporation Leadership
+
+The knowledge base does not identify the chief executive officer of Acme Corporation.
+
+It also does not contain information about the company's board of directors or executive compensation.
+
+---
+
+DOCUMENT 010
+Title: Acme Corporation Security Policy
+
+Acme Corporation recommends that AI applications use the principle of least privilege.
+
+Tools should only receive the permissions necessary to perform their intended functions.
+
+High-impact or irreversible actions should require additional validation or human approval.
+
+---
+
+DOCUMENT 011
+Title: AcmeAI Limitations
+
+Acme Corporation acknowledges that generative AI systems can produce incorrect or unsupported information.
+
+Retrieval can improve access to relevant information but does not guarantee that generated responses are factually correct.
+
+Applications should validate important information before relying on it for high-impact decisions.
+
+---
+
+DOCUMENT 012
+Title: Acme Corporation Customer Support
+
+Acme Corporation provides customer support through an online support portal.
+
+The knowledge base does not contain a customer support telephone number.
+
+Users should not assume that an undocumented telephone number is an official Acme Corporation contact method.
